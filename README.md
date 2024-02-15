@@ -1,3 +1,5 @@
+![Screenshot 2024-02-15 153422](https://github.com/saquelain/Calculator/assets/54945131/eb1bf6da-52d2-4845-8370-7b878d76ba47)
+
 ## :dart: Overview ##
 
 <p>This is a Calculator Application made with React.</p>
