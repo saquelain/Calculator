@@ -1,70 +1,71 @@
-# Getting Started with Create React App
+## :dart: Overview ##
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p>This is a Calculator Application made with React.</p>
 
-## Available Scripts
+## :star2: Features ##
 
-In the project directory, you can run:
+<ul>
+  <li><strong>Add, Multiply, Subtract, Divide, Clear, Equals functionality are present in the calculator.</li>
+  <li><strong>This works good with decimal numbers.</li>
+</ul>
 
-### `npm start`
+## :rocket: Technologies Used ##
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<div align="center">
+  <a href="https://react.dev/">
+    <img width="50" title="React.Js" alt="React.js Logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png">
+  </a> &#xa0; &#xa0;
+  
+  <a href="#">
+    <img width="50" title="Javascript" alt="Javascript Logo" src="https://banner2.cleanpng.com/20180422/hrq/kisspng-javascript-web-development-logo-script-clipart-5adc4c1a932f97.7568863815243868426029.jpg">
+  </a> &#xa0; &#xa0;
+</div>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## :heavy_check_mark: Requirements ##
 
-### `npm test`
+Before starting :checkered_flag:, make sure you have [Git](https://git-scm.com) and [React](https://react.dev/) installed on your system. ([npm](https://www.npmjs.com/) recommended).
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## :checkered_flag: Starting ##
 
-### `npm run build`
+```bash
+# Clone this project
+$ git clone https://github.com/saquelain/Calculator
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Access
+$ cd Calculator
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Install dependencies
+$ npm install
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Run the project
+$ npm start
 
-### `npm run eject`
+# The server will initialize in the <http://localhost:3000>
+```
+## :open_file_folder: Folder Structure ##
+```bash
+  .
+  ├
+  └── src
+      ├── App.js
+      │── App.css   
+      │── index.css 
+      │── index.js   
+      │      
+      └── components
+                └── Calculator
+                        └── Calculator.js
+                        └── Calculator.css
+      
+  ├── public
+  │       ├ index.html
+  │       ├ assets  
+  │
+  │── .gitignore
+  │── README.md
+  │── package.lock.json
+  │── package.json
+```
+&#xa0;
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<a href="#top">Back to top</a>
